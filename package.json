@@ -8,6 +8,7 @@
     "format": "prettier --write ."
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^7.0.2",
     "@shufo/prettier-plugin-blade": "^1.15.2",
     "@tailwindcss/vite": "^4.0.3",
     "axios": "^1.7.9",
