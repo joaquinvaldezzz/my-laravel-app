@@ -3,16 +3,17 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
-    "dev": "vite",
+    "dev:composer": "composer run dev",
+    "dev:vite": "vite",
     "format": "prettier --write ."
   },
   "devDependencies": {
     "@shufo/prettier-plugin-blade": "^1.15.2",
     "@tailwindcss/vite": "^4.0.3",
-    "axios": "^1.7.4",
-    "concurrently": "^9.0.1",
+    "axios": "^1.7.9",
+    "concurrently": "^9.1.2",
     "laravel-vite-plugin": "^1.2.0",
-    "postcss": "^8.4.47",
+    "postcss": "^8.5.1",
     "prettier": "^3.4.2",
     "prettier-plugin-packagejson": "^2.5.8",
     "prettier-plugin-sh": "^0.14.0",
