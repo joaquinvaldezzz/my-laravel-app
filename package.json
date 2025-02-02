@@ -2,7 +2,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "vite build",
+    "build:vite": "vite build",
     "dev:composer": "composer run dev",
     "dev:vite": "vite",
     "format": "prettier --write ."
